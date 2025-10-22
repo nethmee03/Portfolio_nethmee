@@ -117,14 +117,10 @@ src/
 - Safari (latest)
 - Edge (latest)
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Contact
 
 - **Name**: Nethmee Mudannayake
-- **Email**: nethmee@example.com
+- **Email**: nethmeemudannayake@gmail.com
 - **LinkedIn**: [linkedin.com/in/nethmee-mudannayake](https://linkedin.com/in/nethmee-mudannayake)
 - **GitHub**: [github.com/nethmee03](https://github.com/nethmee03)
 My personal portfolio website built with React
