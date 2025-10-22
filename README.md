@@ -95,4 +95,3 @@ src/
 - **Email**: nethmeemudannayake@gmail.com
 - **LinkedIn**: [linkedin.com/in/nethmee-mudannayake](https://linkedin.com/in/nethmee-mudannayake)
 - **GitHub**: [github.com/nethmee03](https://github.com/nethmee03)
-My personal portfolio website built with React
