@@ -8,9 +8,6 @@ const About = () => {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <div className="about-text">
-                   <div className="about-intro">
-                     <h3>Computer Science Undergraduate &<br />Software Engineer Intern</h3>
-                   </div>
                    <div className="about-description">
                      <p>
                        I'm a Computer Science undergraduate at the Informatics Institute of Technology, 
