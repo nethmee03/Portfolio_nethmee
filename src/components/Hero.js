@@ -4,8 +4,8 @@ import profileImage from '../image.jpg';
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
   const fullText = "Hello, I'm Nethmee Mudannayake";
-  const [showSubtitle, setShowSubtitle] = useState(false);
-  const [showDescription, setShowDescription] = useState(false);
+  const [showSubtitle1, setShowSubtitle1] = useState(false);
+  const [showSubtitle2, setShowSubtitle2] = useState(false);
   const [showSocial, setShowSocial] = useState(false);
 
   useEffect(() => {
@@ -16,12 +16,12 @@ const Hero = () => {
         index++;
       } else {
         clearInterval(typeInterval);
-        // Show subtitle after typing is complete
-        setTimeout(() => setShowSubtitle(true), 500);
-        // Show description after subtitle
-        setTimeout(() => setShowDescription(true), 1000);
-        // Show social links after description
-        setTimeout(() => setShowSocial(true), 1500);
+        // Show first subtitle after typing is complete
+        setTimeout(() => setShowSubtitle1(true), 1000);
+        // Show second subtitle after first one
+        setTimeout(() => setShowSubtitle2(true), 2000);
+        // Show social links after second subtitle
+        setTimeout(() => setShowSocial(true), 3000);
       }
     }, 100); // Adjust speed here (lower = faster)
 
@@ -36,8 +36,14 @@ const Hero = () => {
             <h1 className="typewriter">
               {displayText}
             </h1>
-            <p className={`subtitle ${showSubtitle ? 'fade-in' : ''}`}>BSc (Hons) Computer Science Undergraduate at Informatics Institute of Technology affiliated with the University of Westminster</p>
-            <p className={`subtitle ${showSubtitle ? 'fade-in' : ''}`}>Intern Software Engineer at Wiley</p>
+            <div className={`subtitle-point ${showSubtitle1 ? 'fade-in' : ''}`}>
+              <span className="point-indicator"></span>
+              <span className="point-text">BSc (Hons) Computer Science Undergraduate at Informatics Institute of Technology affiliated with the University of Westminster</span>
+            </div>
+            <div className={`subtitle-point ${showSubtitle2 ? 'fade-in' : ''}`}>
+              <span className="point-indicator"></span>
+              <span className="point-text">Intern Software Engineer at Wiley</span>
+            </div>
           </div>
           <div className="hero-image-container">
             <img

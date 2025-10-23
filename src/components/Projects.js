@@ -37,12 +37,6 @@ const Projects = () => {
       status: "Completed",
       description: "Designed and developed an interactive and visually appealing website centered on the theme 'Life on the Land.' The website includes engaging features such as a splash screen, user profiles, an image gallery, and a fully functional shop, enhancing user experience and accessibility.",
       technologies: ["HTML5", "CSS", "JavaScript"]
-    },
-    {
-      title: "Machine Learning Research",
-      status: "Completed",
-      description: "Conducted an in-depth research project exploring various machine learning techniques, their classifications, practical applications, advantages, and limitations. The research provided valuable insights into supervised, unsupervised, and reinforcement learning, highlighting their impact across industries.",
-      technologies: ["Machine Learning", "Research"]
     }
   ];
 
