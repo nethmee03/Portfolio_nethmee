@@ -1,6 +1,6 @@
 # Nethmee Mudannayake - Portfolio Website
 
-A beautiful and professional portfolio website built with React, showcasing my skills, experience, and projects as a Computer Science undergraduate.
+A portfolio website built with React, showcasing my skills, experience, and projects as a Computer Science undergraduate.
 
 ## Features
 
@@ -24,11 +24,6 @@ A beautiful and professional portfolio website built with React, showcasing my s
 - **Google Fonts** - Inter font family for typography
 
 ## Getting Started
-
-### Prerequisites
-
-- Node.js (version 14 or higher)
-- npm or yarn package manager
 
 ### Installation
 
@@ -59,22 +54,6 @@ npm run build
 ```
 
 This builds the app for production to the `build` folder.
-
-## Customization
-
-### Updating Personal Information
-
-1. **Photo**: Replace the image URL in `src/components/Hero.js` with your own photo
-2. **Social Links**: Update the social media URLs in `src/components/Hero.js` and `src/components/Contact.js`
-3. **Content**: Modify the content in each component file to reflect your information
-4. **Colors**: Update the gradient colors in `src/App.css` and `src/index.css`
-
-### Adding New Sections
-
-1. Create a new component in `src/components/`
-2. Import and add it to `src/App.js`
-3. Add navigation link in `src/components/Header.js`
-4. Style the component in `src/App.css`
 
 ## Project Structure
 
@@ -110,21 +89,9 @@ src/
 - Social media integration
 - Mobile-responsive navigation
 
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Contact
 
 - **Name**: Nethmee Mudannayake
-- **Email**: nethmee@example.com
+- **Email**: nethmeemudannayake@gmail.com
 - **LinkedIn**: [linkedin.com/in/nethmee-mudannayake](https://linkedin.com/in/nethmee-mudannayake)
 - **GitHub**: [github.com/nethmee03](https://github.com/nethmee03)
-My personal portfolio website built with React
