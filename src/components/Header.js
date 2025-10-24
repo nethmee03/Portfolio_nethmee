@@ -12,16 +12,19 @@ const Header = () => {
       <div className="nav-container">
         <a href="#home" className="logo">Nethmee</a>
         <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#certifications">Certifications</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <div className="mobile-menu-close" onClick={toggleMenu}>
+            <span>×</span>
+          </div>
+          <li><a href="#home" onClick={toggleMenu}>Home</a></li>
+          <li><a href="#about" onClick={toggleMenu}>About</a></li>
+          <li><a href="#skills" onClick={toggleMenu}>Skills</a></li>
+          <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
+          <li><a href="#education" onClick={toggleMenu}>Education</a></li>
+          <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+          <li><a href="#certifications" onClick={toggleMenu}>Certifications</a></li>
+          <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
         </ul>
-        <div className="mobile-menu" onClick={toggleMenu}>
+        <div className={`mobile-menu ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>
