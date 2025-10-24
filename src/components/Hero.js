@@ -42,7 +42,7 @@ const Hero = () => {
             </div>
             <div className={`subtitle-point ${showSubtitle2 ? 'fade-in' : ''}`}>
               <span className="point-indicator"></span>
-              <span className="point-text">Intern Software Engineer at Wiley</span>
+              <span className="point-text">Software Engineer Intern at Wiley</span>
             </div>
           </div>
           <div className="hero-image-container">

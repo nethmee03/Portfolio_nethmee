@@ -8,7 +8,7 @@ body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
   color: #2d3748;
-  background: linear-gradient(135deg, #5a67d8 0%, #764ba2 25%, #553c9a 50%, #5a67d8 75%, #764ba2 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 25%, #0f1419 50%, #1a1a2e 75%, #16213e 100%);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
   min-height: 100vh;
@@ -46,12 +46,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #5a67d8, #6b46c1);
+  background: linear-gradient(135deg, #0f1419, #1a1a2e);
 }
 
 .container {
@@ -79,7 +79,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.03));
+  background: linear-gradient(135deg, rgba(26, 26, 46, 0.05), rgba(22, 33, 62, 0.03));
   pointer-events: none;
 }
 
@@ -88,7 +88,7 @@ html {
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 4rem;
-  background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f1419);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -104,14 +104,14 @@ html {
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
   border-radius: 2px;
 }
 
 .btn {
   display: inline-block;
   padding: 15px 35px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
   color: white;
   text-decoration: none;
   border-radius: 50px;
@@ -121,7 +121,7 @@ html {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 25px rgba(26, 26, 46, 0.3);
 }
 
 .btn::before {
@@ -141,7 +141,7 @@ html {
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 15px 35px rgba(26, 26, 46, 0.4);
 }
 
 .card {
@@ -164,7 +164,7 @@ html {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
 }
 
 .card:hover {
