@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio_nethmee/static/css/main.7a7f72db.css",
+    "main.js": "/Portfolio_nethmee/static/js/main.3cb4f9de.js",
+    "static/media/image.jpg": "/Portfolio_nethmee/static/media/image.c22842e7d492cfb014f9.jpg",
+    "index.html": "/Portfolio_nethmee/index.html",
+    "main.7a7f72db.css.map": "/Portfolio_nethmee/static/css/main.7a7f72db.css.map",
+    "main.3cb4f9de.js.map": "/Portfolio_nethmee/static/js/main.3cb4f9de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a7f72db.css",
+    "static/js/main.3cb4f9de.js"
+  ]
+}
